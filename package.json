@@ -1,0 +1,35 @@
+{
+  "name": "burly",
+  "preferGlobal": true,
+  "version": "0.0.0",
+  "description": "A simple command-line tool for common URL processing tasks.",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "should": "~1.2.2"
+  },
+  "bin": {
+    "burly": "./cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/khalifenizar/burly.git"
+  },
+  "keywords": [
+    "cli",
+    "url",
+    "encode",
+    "decode",
+    "explain"
+  ],
+  "author": "Nizar Khalife Iglesias <khalifenizar@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/khalifenizar/burly/issues"
+  }
+}
